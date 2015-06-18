@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 1eabd8867228e9c458b7f8b6489a9d18
+timeCreated: 1434490021
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 02_objects_UntitledSheet_0
+    21300002: 02_objects_UntitledSheet_1
+    21300004: 02_objects_UntitledSheet_2
+    21300006: 02_objects_UntitledSheet_3
+    21300008: 02_objects_UntitledSheet_4
+    21300010: 02_objects_UntitledSheet_5
+    21300012: 02_objects_UntitledSheet_6
+    21300014: 02_objects_UntitledSheet_7
+    21300016: 02_objects_UntitledSheet_8
+    21300018: 02_objects_UntitledSheet_9
+    21300020: 02_objects_UntitledSheet_10
+    21300022: 02_objects_UntitledSheet_11
+    21300024: 02_objects_UntitledSheet_12
+    21300026: 02_objects_UntitledSheet_13
+    21300028: 02_objects_UntitledSheet_14
+    21300030: 02_objects_UntitledSheet_15
+    21300032: 02_objects_UntitledSheet_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 02_objects_UntitledSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 260
+        width: 128
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 384
+        width: 244
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 384
+        width: 199
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_3
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 470
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 442
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_5
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 344
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 260
+        width: 254
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 236
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 268
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 217
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4
+        width: 128
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 4
+        width: 119
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_13
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 140
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_14
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 4
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 4
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_objects_UntitledSheet_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 4
+        width: 128
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
