@@ -3,29 +3,70 @@ using System.Collections;
 
 public class GlobalInterchange : MonoBehaviour {
 
-    public  GameObject level00;
-    public  GameObject level01;
-    public  GameObject level02;
-    public  GameObject level03;
+    public GameObject stage01;
+    public GameObject stage02;
+    public GameObject stage03;
+    public GameObject stage04;
+    public GameObject protagist;
+
+    public GameObject startPoint;
+
+    public GameObject mainCamera;
+
     public static int scenes;
 
 	// Use this for initialization
-	void Start () {
-        if (level01 == null) {
-            Debug.LogError("No level 01 found");
-            Debug.Break();
+    void Start()
+    {
+        if (mainCamera == null)
+        {
+            Debug.LogError("No Camera found");
         }
-        level01.transform.Translate((30 * 15f), 0, 0);
+        if (protagist == null)
+        {
+            Debug.LogError("No Hero found");
+        }
+
+        Instantiate(Resources.Load("Stage01"), Vector3.zero, Quaternion.identity);
+        if (startPoint == null)
+        {
+            Debug.LogError("No Startpoint found");
+        }
+        else
+        {
+            if ((protagist == null) || (mainCamera == null))
+                return;
+            Debug.Log("Creating hero");
+            GameObject hero = Instantiate(protagist,startPoint.transform.localPosition,startPoint.transform.localRotation) as GameObject;
+            hero.GetComponentInChildren<Movement>().setCam(mainCamera);
+            Debug.Log("Hero created");
+            //Vector3 cameraPostion = mainCamera.transform.position;
+            mainCamera.transform.Translate(startPoint.transform.position.x, 0, 0);
+        }
 	}
 
     public static void inc() {
         scenes++;
     }
 
-    public static void nxtLevel(int i) {
-        if (i == 1) { 
-            
+    public static string nxtLevel() {
+        if (scenes >= 40)
+            scenes -= 40;
+
+        if (scenes<10) {
+            return "Stage01";
         }
+        else if (scenes < 20) {
+            return "Stage02";
+        }
+        else if (scenes < 30) {
+            return "Stage03";
+        }
+        else if (scenes < 40) {
+            return "Stage04";
+        }
+
+        return null;
     }
 
 	// Update is called once per frame
@@ -33,27 +74,4 @@ public class GlobalInterchange : MonoBehaviour {
 	
 	} 
     
-   /* public static GameObject getCurrentLevel(){
-        if (scenes < 10) {
-            return level00;
-        }
-        else if (scenes < 20)
-        {
-            return level01;
-        }
-        else if (scenes < 30)
-        {
-           // return level02;
-            return level00;
-        }
-        else if (scenes < 40)
-        {
-            return level03;
-        }
-        else {
-            scenes -= 40;
-            return level00;
-        }
-    }
-     */
 }
