@@ -9,8 +9,9 @@ public class Movement : MonoBehaviour
     float speed;
     public GameObject camera;
     public float readyGo;
-    private bool grounded = false;
-    float preX; 
+    public GameObject axis;
+    private bool grounded = false;	
+    //float lasty;
     int count = 0;
 
     private Animator anim;
@@ -21,18 +22,15 @@ public class Movement : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         speed = 0.15f;
-        preX = 0;
+        if (camera == null)
+        {
+
+            Debug.LogError("No camera to track me");
+            Debug.Break();
+        }
         //inAir = true;
     }
 
-    public void setSpeed(float speed) {
-        this.speed = speed;
-    }
-
-    public void setCam(GameObject cam) {
-        Debug.Log("setting camera variable");   
-        camera = cam;
-    }
 
     void OnCollisionEnter2D(Collision2D hit)
     {
@@ -52,14 +50,8 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (camera == null)
-        {
-            Debug.LogError("No camera to track me");
-            Debug.Break();
-        }
         gameObject.transform.Translate(speed, 0f, 0f);
         camera.transform.Translate(speed, 0f, 0f);
-        
         //float x = gameObject.transform.position.x;
         //float y = gameObject.transform.position.y;
         //float z = gameObject.transform.position.z;
